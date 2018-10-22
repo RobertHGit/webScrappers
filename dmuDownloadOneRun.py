@@ -44,8 +44,8 @@ browser = webdriver.Chrome(executable_path="C:\Program Files (x86)\Google\Chrome
 
 #define urls, usernames and passwords
 bvd_home = "https://walletsizingcatalyst.bvdinfo.com/version-2018614/Home.serv?product=WalletSizingcatalyst"
-username = "robert.hommes@ing.com"
-password = "Bankpa@1"
+username = "username"
+password = "password"
 
 
 # In[236]:
