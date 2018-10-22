@@ -40,7 +40,7 @@ hitsDF.iloc[:,1] = boundriesDF.iloc[:,1]
 #set up chrome environment and driver
 option = webdriver.ChromeOptions()
 option.add_experimental_option("prefs", {
-  "download.default_directory": r"\\ad.ing.net\WPS\NL\P\GD\012223\01 MARKETING INTELLIGENCE\Data\scrapeBvD",
+  "download.default_directory": r"\path\to\folder\",
   "download.prompt_for_download": False,
   "download.directory_upgrade": True,
   "safebrowsing.enabled": True

@@ -20,7 +20,7 @@ import pandas as pd
 #set up chrome environment and driver
 option = webdriver.ChromeOptions()
 option.add_experimental_option("prefs", {
-  "download.default_directory": r"\\ad.ing.net\WPS\NL\P\GD\012223\01 MARKETING INTELLIGENCE\Data\scrapeOrbis\WalletSizeScrape",
+  "download.default_directory": r"\path\to\folder\",
   "download.prompt_for_download": False,
   "download.directory_upgrade": True,
   "safebrowsing.enabled": True
@@ -35,7 +35,7 @@ if comp_setting == 'own' :
 elif comp_setting == 'remote' :
     browser = webdriver.Chrome(executable_path="C:\Anaconda\chromedriver.exe", chrome_options=option)
     
-os.chdir('\\\\ad.ing.net\\WPS\\NL\\P\\GD\\012223\\01 MARKETING INTELLIGENCE\\Data\\scrapeOrbis\\WalletSizeScrape')
+os.chdir('\path\to\folder\')
 
 
 # In[235]:

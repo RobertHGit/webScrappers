@@ -16,7 +16,7 @@ import pandas as pd
 import os
 from bs4 import BeautifulSoup
 
-os.chdir('\\\\ad.ing.net\\WPS\\NL\\P\\GD\\012223\\01 MARKETING INTELLIGENCE\\Data\\WalletSizeDatabase')
+os.chdir('\path\to\folder\')
 
 #%%
 def check_exists_by_xpath(xpath):
@@ -45,7 +45,7 @@ def check_exists_by_xpathVisual(xpath) :
 #set up chrome environment and driver
 option = webdriver.ChromeOptions()
 option.add_experimental_option("prefs", {
-  "download.default_directory": r"\\ad.ing.net\WPS\NL\P\GD\012223\01 MARKETING INTELLIGENCE\Data\WalletSizeDatabase",
+  "download.default_directory": r"\path\to\folder\",
   "download.prompt_for_download": False,
   "download.directory_upgrade": True,
   "safebrowsing.enabled": True
@@ -79,7 +79,7 @@ browser.find_element_by_id('bnLoginNeo').click()
   # In[238]:
 
 #Create search list
-walletsING = pd.read_excel('\\\\ad.ing.net\\WPS\\NL\\P\\GD\\012223\\01 MARKETING INTELLIGENCE\\Data\\WalletSizeDatabase\\dmuSearchList.xlsx')
+walletsING = pd.read_excel('\path\to\folder\')
 searchBvD = walletsING['BVDID'].to_frame()
 
 #open advance search options

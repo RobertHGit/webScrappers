@@ -18,7 +18,7 @@ import pandas as pd
 import os
 from bs4 import BeautifulSoup
 
-os.chdir('\\\\ad.ing.net\\WPS\\NL\\P\\GD\\012223\\01 MARKETING INTELLIGENCE\\Data\\WalletSizeDatabase\\update\\2_VRBreakDown\\adjustWallet')
+os.chdir('\path\to\folder\')
 
 #%% partial functions
 def check_exists_by_xpath(xpath):
@@ -143,7 +143,7 @@ def extractTable(browser, TabNum):
 #set up chrome environment and driver
 option = webdriver.ChromeOptions()
 option.add_experimental_option("prefs", {
-  "download.default_directory": r"\\ad.ing.net\WPS\NL\P\GD\012223\01 MARKETING INTELLIGENCE\Data\WalletSizeDatabase\update\2_VRBreakDown\adjustWallet",
+  "download.default_directory": r"\path\to\folder\",
   "download.prompt_for_download": False,
   "download.directory_upgrade": True,
   "safebrowsing.enabled": True
