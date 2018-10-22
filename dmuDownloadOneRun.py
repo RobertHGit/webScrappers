@@ -198,5 +198,10 @@ if check_exists_by_xpath('//*[@id="OutsideSelectionDiv"]/table/tbody/tr[1]/td/ta
 #%%
 #insideDMUDataframeALL_1 = insideDMUDataframeALL
 #outsideDMUDataframeALL_1 = outsideDMUDataframeALL
+<<<<<<< HEAD
 insideDMUDataframeALL.to_excel('\path\to\folder\')
 outsideDMUDataframeALL.to_excel('\path\to\folder\')
+=======
+insideDMUDataframeALL.to_excel('\\\\ad.ing.net\\WPS\\NL\\P\\GD\\012223\\01 MARKETING INTELLIGENCE\\Data\\WalletSizeDatabase\\insideDMUDataframeALL_2.xlsx')
+outsideDMUDataframeALL.to_excel('\\\\ad.ing.net\\WPS\\NL\\P\\GD\\012223\\01 MARKETING INTELLIGENCE\\Data\\WalletSizeDatabase\\outsideDMUDataframeALL_2.xlsx')
+>>>>>>> 3d8a65b13b040b0fdaaed0d98e37082991555553
